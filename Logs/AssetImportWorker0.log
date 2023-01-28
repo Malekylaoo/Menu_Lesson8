@@ -1,0 +1,741 @@
+Using pre-set license
+Built from '2021.3/staging' branch; Version is '2021.3.16f1 (4016570cf34f) revision 4200023'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19041) 64bit Professional' Language: 'ru' Physical Memory: 32680 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2021.3.16f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+F:/UnityProjects/Lesson8_MainMenu
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+60719
+Successfully changed project path to: F:/UnityProjects/Lesson8_MainMenu
+F:/UnityProjects/Lesson8_MainMenu
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [11568] Host "[IP] 192.168.88.229 [Port] 0 [Flags] 2 [Guid] 2088538611 [EditorId] 2088538611 [Version] 1048832 [Id] WindowsEditor(7,IT-333) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [11568] Host "[IP] 192.168.88.229 [Port] 0 [Flags] 2 [Guid] 2088538611 [EditorId] 2088538611 [Version] 1048832 [Id] WindowsEditor(7,IT-333) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+Refreshing native plugins compatible for Editor in 80.45 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.16f1 (4016570cf34f)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path F:/UnityProjects/Lesson8_MainMenu/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1060 3GB (ID=0x1c02)
+    Vendor:   NVIDIA
+    VRAM:     2988 MB
+    Driver:   27.21.14.6627
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56832
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.005307 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 74.36 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.538 seconds
+Domain Reload Profiling:
+	ReloadAssembly (539ms)
+		BeginReloadAssembly (57ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (394ms)
+			LoadAssemblies (55ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (89ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (25ms)
+			SetupLoadedEditorAssemblies (240ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (44ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (74ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (83ms)
+				ProcessInitializeOnLoadMethodAttributes (37ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.003828 seconds.
+Android Extension - Scanning For ADB Devices 621 ms
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image F:\UnityProjects\Lesson8_MainMenu\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image F:\UnityProjects\Lesson8_MainMenu\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 73.58 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.949 seconds
+Domain Reload Profiling:
+	ReloadAssembly (950ms)
+		BeginReloadAssembly (90ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (17ms)
+		EndReloadAssembly (768ms)
+			LoadAssemblies (67ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (198ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (49ms)
+			SetupLoadedEditorAssemblies (416ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (12ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (74ms)
+				BeforeProcessingInitializeOnLoad (88ms)
+				ProcessInitializeOnLoadAttributes (202ms)
+				ProcessInitializeOnLoadMethodAttributes (33ms)
+				AfterProcessingInitializeOnLoad (6ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
+Refreshing native plugins compatible for Editor in 0.65 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4058 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 44 unused Assets / (229.0 KB). Loaded Objects now: 4510.
+Memory consumption went from 153.1 MB to 152.9 MB.
+Total: 2.794900 ms (FindLiveObjects: 0.274400 ms CreateObjectMapping: 0.238600 ms MarkObjects: 2.156300 ms  DeleteObjects: 0.125100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 14789.667399 seconds.
+  path: Assets
+  artifactKey: Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets using Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79842766b460edbeab6a34051e857a80') in 0.007382 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.491210 seconds.
+  path: Assets/OtherAssets
+  artifactKey: Guid(84f2f8e5188a4e94eb03c23c75d6b79d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OtherAssets using Guid(84f2f8e5188a4e94eb03c23c75d6b79d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c0e8260f6c262c6c84964f793c6cf6d1') in 0.000580 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 44.095271 seconds.
+  path: Assets/OtherAssets/RPG&Fantasy Mobile GUI
+  artifactKey: Guid(d544f05f71ee38248b4bfe220e814006) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OtherAssets/RPG&Fantasy Mobile GUI using Guid(d544f05f71ee38248b4bfe220e814006) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a26e77dc7d60696494ba0d5fd6b29dd') in 0.000620 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.038505 seconds.
+  path: Assets/OtherAssets/RPG&Fantasy Mobile GUI/back.png
+  artifactKey: Guid(1082298fe90c4d9d08a8db793e2d3a38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OtherAssets/RPG&Fantasy Mobile GUI/back.png using Guid(1082298fe90c4d9d08a8db793e2d3a38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c0e4235d1d4f40c8e9aededbb6258364') in 0.160815 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.431243 seconds.
+  path: Assets/OtherAssets/RPG&Fantasy Mobile GUI/buttons
+  artifactKey: Guid(2b071c38dc1e12a7297417349a8fc809) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OtherAssets/RPG&Fantasy Mobile GUI/buttons using Guid(2b071c38dc1e12a7297417349a8fc809) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c3a8b36afa167c469c708fcad916bae') in 0.000558 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.050624 seconds.
+  path: Assets/OtherAssets/RPG&Fantasy Mobile GUI/buttons/button_01.png
+  artifactKey: Guid(aee404816abea1d608e7c94aa8392235) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OtherAssets/RPG&Fantasy Mobile GUI/buttons/button_01.png using Guid(aee404816abea1d608e7c94aa8392235) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0d459859d3e141152f7f65d41dc6bd4') in 0.012313 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000632 seconds.
+  path: Assets/OtherAssets/RPG&Fantasy Mobile GUI/buttons/button_03.png
+  artifactKey: Guid(a83bb97ca266125a198ffc8deb53a092) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OtherAssets/RPG&Fantasy Mobile GUI/buttons/button_03.png using Guid(a83bb97ca266125a198ffc8deb53a092) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c559944f73a8d8b003e1fcdb4934866e') in 0.010775 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/OtherAssets/RPG&Fantasy Mobile GUI/buttons/button_pressed_01.png
+  artifactKey: Guid(93a11f15b343cace6a8a24ba6585bc81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OtherAssets/RPG&Fantasy Mobile GUI/buttons/button_pressed_01.png using Guid(93a11f15b343cace6a8a24ba6585bc81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e3cacf01fa5ad84ea7fe5123bf1a66c1') in 0.008320 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/OtherAssets/RPG&Fantasy Mobile GUI/buttons/button_18.png
+  artifactKey: Guid(ca4ce4eedf1c62ab3b17c73ec876eda5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OtherAssets/RPG&Fantasy Mobile GUI/buttons/button_18.png using Guid(ca4ce4eedf1c62ab3b17c73ec876eda5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c10dd245f64f8335146f87cd29050f1a') in 0.010035 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/OtherAssets/RPG&Fantasy Mobile GUI/buttons/button_pressed_23.png
+  artifactKey: Guid(6b16052de3ba1148c959f5f963b4e1f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OtherAssets/RPG&Fantasy Mobile GUI/buttons/button_pressed_23.png using Guid(6b16052de3ba1148c959f5f963b4e1f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f26155b1f9cd2c41ce042054f60232c9') in 0.011974 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/OtherAssets/RPG&Fantasy Mobile GUI/buttons/button_21.png
+  artifactKey: Guid(4e46e2cbeeb943273b52acb63ab999ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OtherAssets/RPG&Fantasy Mobile GUI/buttons/button_21.png using Guid(4e46e2cbeeb943273b52acb63ab999ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ee0668c74910914a9330d86e2b49a36') in 0.011103 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/OtherAssets/RPG&Fantasy Mobile GUI/buttons/button_pressed_31.png
+  artifactKey: Guid(592ef390a299142128dc855f74d363dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OtherAssets/RPG&Fantasy Mobile GUI/buttons/button_pressed_31.png using Guid(592ef390a299142128dc855f74d363dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '36fef601c309a29fe9f921977f402e2b') in 0.007781 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/OtherAssets/RPG&Fantasy Mobile GUI/buttons/button_27.png
+  artifactKey: Guid(c15c7ceb0e1aa97a8be0a6158050e317) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OtherAssets/RPG&Fantasy Mobile GUI/buttons/button_27.png using Guid(c15c7ceb0e1aa97a8be0a6158050e317) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a390eceb0493b0a04737ca4711d03d8') in 0.008610 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/OtherAssets/RPG&Fantasy Mobile GUI/buttons/button_22.png
+  artifactKey: Guid(093cf536effc265bc938fbf8b855b9fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OtherAssets/RPG&Fantasy Mobile GUI/buttons/button_22.png using Guid(093cf536effc265bc938fbf8b855b9fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2782e6c4a02aa0d08b580efb18dfcbb') in 0.008688 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/OtherAssets/RPG&Fantasy Mobile GUI/buttons/button_pressed_07.png
+  artifactKey: Guid(7747d8d84c0979f8795259bac30a72a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OtherAssets/RPG&Fantasy Mobile GUI/buttons/button_pressed_07.png using Guid(7747d8d84c0979f8795259bac30a72a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c216ecca5698eeac25db49587e6dbacb') in 0.010048 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/OtherAssets/RPG&Fantasy Mobile GUI/buttons/button_pressed_15.png
+  artifactKey: Guid(f1cad334155bd0810a26eedbf4662b6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OtherAssets/RPG&Fantasy Mobile GUI/buttons/button_pressed_15.png using Guid(f1cad334155bd0810a26eedbf4662b6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a17d86fbb7f007178622b55aad715d2a') in 0.011783 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/OtherAssets/RPG&Fantasy Mobile GUI/buttons/button_pressed_16.png
+  artifactKey: Guid(2d9714816b0e39d668072a3a36af7068) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OtherAssets/RPG&Fantasy Mobile GUI/buttons/button_pressed_16.png using Guid(2d9714816b0e39d668072a3a36af7068) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '334070153c0fe96c245e6fad4c43446f') in 0.008970 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/OtherAssets/RPG&Fantasy Mobile GUI/buttons/button_pressed_04.png
+  artifactKey: Guid(c4ef63d8a9529cf8d9f54a1b70df183e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OtherAssets/RPG&Fantasy Mobile GUI/buttons/button_pressed_04.png using Guid(c4ef63d8a9529cf8d9f54a1b70df183e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9aa2d9df123aa3bca4e25cf690b78a0') in 0.008510 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/OtherAssets/RPG&Fantasy Mobile GUI/buttons/button_23.png
+  artifactKey: Guid(ba8454272246bf1d2a8bd22a1e69f279) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OtherAssets/RPG&Fantasy Mobile GUI/buttons/button_23.png using Guid(ba8454272246bf1d2a8bd22a1e69f279) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '898f14b1c91dd00c159bc083d946c8b3') in 0.008934 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/OtherAssets/RPG&Fantasy Mobile GUI/buttons/button_pressed_22.png
+  artifactKey: Guid(6e75d6eb50fef692b93ab464df4d6560) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OtherAssets/RPG&Fantasy Mobile GUI/buttons/button_pressed_22.png using Guid(6e75d6eb50fef692b93ab464df4d6560) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b28bb4f33d55f9f8e603447b08540d60') in 0.007819 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/OtherAssets/RPG&Fantasy Mobile GUI/buttons/button_26.png
+  artifactKey: Guid(b8cd989331fac3cf69d0866b8253dd9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OtherAssets/RPG&Fantasy Mobile GUI/buttons/button_26.png using Guid(b8cd989331fac3cf69d0866b8253dd9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4ff649199c120b960173ac371258469') in 0.013720 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/OtherAssets/RPG&Fantasy Mobile GUI/buttons/button_pressed_21.png
+  artifactKey: Guid(6bc67af941a954bb1ba8c1b8dca4b0a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OtherAssets/RPG&Fantasy Mobile GUI/buttons/button_pressed_21.png using Guid(6bc67af941a954bb1ba8c1b8dca4b0a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba4f93bfa83f677942d9f200c70dee5c') in 0.008890 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/OtherAssets/RPG&Fantasy Mobile GUI/buttons/button_31.png
+  artifactKey: Guid(fdb33f26e5fe3011da0e2b0a6b4218d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OtherAssets/RPG&Fantasy Mobile GUI/buttons/button_31.png using Guid(fdb33f26e5fe3011da0e2b0a6b4218d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c691431406667a1f2d4d6aeb19af7975') in 0.011768 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/OtherAssets/RPG&Fantasy Mobile GUI/buttons/button_pressed_24.png
+  artifactKey: Guid(2b2c21e751ed357769257c413cced59c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OtherAssets/RPG&Fantasy Mobile GUI/buttons/button_pressed_24.png using Guid(2b2c21e751ed357769257c413cced59c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e9dafeb58cf28901f52c0b51d0a9f833') in 0.011208 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/OtherAssets/RPG&Fantasy Mobile GUI/buttons/button_08.png
+  artifactKey: Guid(ff7e6e26dca8aec2496693e073739a50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OtherAssets/RPG&Fantasy Mobile GUI/buttons/button_08.png using Guid(ff7e6e26dca8aec2496693e073739a50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7825b05e66d25a3ca453726e5298e511') in 0.007801 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/OtherAssets/RPG&Fantasy Mobile GUI/buttons/button_29.png
+  artifactKey: Guid(5a74f1c7856a6c849b0aefbb4a4b2737) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OtherAssets/RPG&Fantasy Mobile GUI/buttons/button_29.png using Guid(5a74f1c7856a6c849b0aefbb4a4b2737) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75b16bac7b5edc54c4e306dd58ab0831') in 0.007435 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/OtherAssets/RPG&Fantasy Mobile GUI/buttons/button_pressed_12.png
+  artifactKey: Guid(5a862bee92a9d960983624512046b957) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OtherAssets/RPG&Fantasy Mobile GUI/buttons/button_pressed_12.png using Guid(5a862bee92a9d960983624512046b957) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4736585e50a1a1d33ee32956ade6de49') in 0.008510 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/OtherAssets/RPG&Fantasy Mobile GUI/buttons/button_pressed_05.png
+  artifactKey: Guid(5abbf79d5e0bc5f14ae559c8433e0106) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OtherAssets/RPG&Fantasy Mobile GUI/buttons/button_pressed_05.png using Guid(5abbf79d5e0bc5f14ae559c8433e0106) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ace41d1c6bc8c2c096197586c1275e6c') in 0.007600 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/OtherAssets/RPG&Fantasy Mobile GUI/buttons/button_12.png
+  artifactKey: Guid(cc159ad0f018f72e195e5ba7f6656594) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OtherAssets/RPG&Fantasy Mobile GUI/buttons/button_12.png using Guid(cc159ad0f018f72e195e5ba7f6656594) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b9e44b0c1159c09349245998afead82') in 0.007874 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/OtherAssets/RPG&Fantasy Mobile GUI/buttons/button_09.png
+  artifactKey: Guid(261f5205945a1e827896b2dea5be771a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OtherAssets/RPG&Fantasy Mobile GUI/buttons/button_09.png using Guid(261f5205945a1e827896b2dea5be771a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13362202d440fbb559b38f8a30384ad4') in 0.007462 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/OtherAssets/RPG&Fantasy Mobile GUI/buttons/button_35.png
+  artifactKey: Guid(1576c3618f407c580a82ae61707e204a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OtherAssets/RPG&Fantasy Mobile GUI/buttons/button_35.png using Guid(1576c3618f407c580a82ae61707e204a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '71f13bc5dd656b4453354728b0dd18d3') in 0.008010 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/OtherAssets/RPG&Fantasy Mobile GUI/buttons/button_pressed_17.png
+  artifactKey: Guid(89c8b959dc85ff764b43f67d858120e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OtherAssets/RPG&Fantasy Mobile GUI/buttons/button_pressed_17.png using Guid(89c8b959dc85ff764b43f67d858120e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '861762f539c1b3e64344c098103e6b82') in 0.008083 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/OtherAssets/RPG&Fantasy Mobile GUI/buttons/button_20.png
+  artifactKey: Guid(32438a843b4a1f34c873d50fe475e25b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OtherAssets/RPG&Fantasy Mobile GUI/buttons/button_20.png using Guid(32438a843b4a1f34c873d50fe475e25b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f82e81cb5906d308126b21d2a5c191e7') in 0.008176 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/OtherAssets/RPG&Fantasy Mobile GUI/buttons/button_16.png
+  artifactKey: Guid(ff5cb07012c8c7bceaf030dd4ff465ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OtherAssets/RPG&Fantasy Mobile GUI/buttons/button_16.png using Guid(ff5cb07012c8c7bceaf030dd4ff465ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9dc195c4d887cdcc6db7532947eeb235') in 0.007333 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/OtherAssets/RPG&Fantasy Mobile GUI/buttons/button_pressed_25.png
+  artifactKey: Guid(800a2b12d5178f8c6b9d586e1da0890c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OtherAssets/RPG&Fantasy Mobile GUI/buttons/button_pressed_25.png using Guid(800a2b12d5178f8c6b9d586e1da0890c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c97612558b58b52b2aaa6b6ed25374a2') in 0.007329 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/OtherAssets/RPG&Fantasy Mobile GUI/buttons/button_25.png
+  artifactKey: Guid(bfad6529dac651e61aba14747dc5c2d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OtherAssets/RPG&Fantasy Mobile GUI/buttons/button_25.png using Guid(bfad6529dac651e61aba14747dc5c2d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd31d3e5b52503695940081b0074cbf73') in 0.008839 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/OtherAssets/RPG&Fantasy Mobile GUI/buttons/button_pressed_06.png
+  artifactKey: Guid(00ed6944fe597beb3aa97f89a43c91f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OtherAssets/RPG&Fantasy Mobile GUI/buttons/button_pressed_06.png using Guid(00ed6944fe597beb3aa97f89a43c91f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f5cbeae79076ca690964282442128786') in 0.007229 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/OtherAssets/RPG&Fantasy Mobile GUI/buttons/button_pressed_08.png
+  artifactKey: Guid(3c14fecfa2ffdcfc992c67dcb0db77ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OtherAssets/RPG&Fantasy Mobile GUI/buttons/button_pressed_08.png using Guid(3c14fecfa2ffdcfc992c67dcb0db77ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c8a0d61321f461b8958bb3c2dc41600e') in 0.006930 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/OtherAssets/RPG&Fantasy Mobile GUI/buttons/button_pressed_19.png
+  artifactKey: Guid(871bac8e5b57fb7d9a4e9644ba36f595) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OtherAssets/RPG&Fantasy Mobile GUI/buttons/button_pressed_19.png using Guid(871bac8e5b57fb7d9a4e9644ba36f595) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b229b9d4af49fb26da3d7704f46c1622') in 0.006866 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/OtherAssets/RPG&Fantasy Mobile GUI/buttons/button_pressed_03.png
+  artifactKey: Guid(76bd964e74f078a368807168d2bae272) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OtherAssets/RPG&Fantasy Mobile GUI/buttons/button_pressed_03.png using Guid(76bd964e74f078a368807168d2bae272) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f4c765194db6d3e5de28affe6ac0cdb') in 0.007150 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 48.952686 seconds.
+  path: Assets/OtherAssets/RPG&Fantasy Mobile GUI/titles/title_02.png
+  artifactKey: Guid(6c3921112ebe96c278d62170a5b40ee5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OtherAssets/RPG&Fantasy Mobile GUI/titles/title_02.png using Guid(6c3921112ebe96c278d62170a5b40ee5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7fd85fe3ae6751a9203fb4f8a4cf425') in 0.016619 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/OtherAssets/RPG&Fantasy Mobile GUI/titles/title_16.png
+  artifactKey: Guid(f23439877a13b855d99457b4c0325e19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OtherAssets/RPG&Fantasy Mobile GUI/titles/title_16.png using Guid(f23439877a13b855d99457b4c0325e19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '38a228ddb125cb9411d62db707aa06f5') in 0.016804 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/OtherAssets/RPG&Fantasy Mobile GUI/titles/title_07.png
+  artifactKey: Guid(93fe61250af7ee144a44b78b7f4cadfb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OtherAssets/RPG&Fantasy Mobile GUI/titles/title_07.png using Guid(93fe61250af7ee144a44b78b7f4cadfb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f58886d7f672f719a51b81ba29a4134') in 0.015111 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/OtherAssets/RPG&Fantasy Mobile GUI/titles/title_17.png
+  artifactKey: Guid(4208d837bf1878f77b21b5e933fbe162) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OtherAssets/RPG&Fantasy Mobile GUI/titles/title_17.png using Guid(4208d837bf1878f77b21b5e933fbe162) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '768a514f0d03820766127527165a0f71') in 0.017083 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/OtherAssets/RPG&Fantasy Mobile GUI/titles/title_09.png
+  artifactKey: Guid(9e4cf8dbb128dfa5e8d1e8e37cc82a79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OtherAssets/RPG&Fantasy Mobile GUI/titles/title_09.png using Guid(9e4cf8dbb128dfa5e8d1e8e37cc82a79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e87c63f45ab79f24243ec845377edd6c') in 0.017287 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/OtherAssets/RPG&Fantasy Mobile GUI/titles/title_12.png
+  artifactKey: Guid(436fac1191b464861932012500914421) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OtherAssets/RPG&Fantasy Mobile GUI/titles/title_12.png using Guid(436fac1191b464861932012500914421) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e523c9e03a8a671c780a8df1b0ced357') in 0.013973 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/OtherAssets/RPG&Fantasy Mobile GUI/titles/title_06.png
+  artifactKey: Guid(60fcc39daa126e226af67124d695d6d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OtherAssets/RPG&Fantasy Mobile GUI/titles/title_06.png using Guid(60fcc39daa126e226af67124d695d6d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '07b70050d2bed7673c62aba7c242f0fb') in 0.014160 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.443537 seconds.
+  path: Assets/OtherAssets/RPG&Fantasy Mobile GUI/panels/panel_02.png
+  artifactKey: Guid(a9ce4af7a31a706ac9dd9db2a51850a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OtherAssets/RPG&Fantasy Mobile GUI/panels/panel_02.png using Guid(a9ce4af7a31a706ac9dd9db2a51850a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2d5f07cc3b1edc3ed7e237fbf70ecb6') in 0.052130 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/OtherAssets/RPG&Fantasy Mobile GUI/panels/panel_07.png
+  artifactKey: Guid(4409c2fc9dc87fa688fb47b88485e22a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OtherAssets/RPG&Fantasy Mobile GUI/panels/panel_07.png using Guid(4409c2fc9dc87fa688fb47b88485e22a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8ab1e1ceb21a9462462b071f3512949') in 0.010979 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.649215 seconds.
+  path: Assets/OtherAssets/RPG&Fantasy Mobile GUI/panel_elements/box_slider_fill_01.png
+  artifactKey: Guid(17fef95fe0d6af6d390a59a2d8364b4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OtherAssets/RPG&Fantasy Mobile GUI/panel_elements/box_slider_fill_01.png using Guid(17fef95fe0d6af6d390a59a2d8364b4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43c5350d9ad5461c59695425082c5e43') in 0.013532 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/OtherAssets/RPG&Fantasy Mobile GUI/panel_elements/panel_element_47.png
+  artifactKey: Guid(5d0cb631889626203aaf026f11355b1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OtherAssets/RPG&Fantasy Mobile GUI/panel_elements/panel_element_47.png using Guid(5d0cb631889626203aaf026f11355b1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e3b87cec67191b23aa576a187e611101') in 0.013929 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/OtherAssets/RPG&Fantasy Mobile GUI/panel_elements/panel_element_04.png
+  artifactKey: Guid(bdb4914f78e2e16ec964e04376f0571b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OtherAssets/RPG&Fantasy Mobile GUI/panel_elements/panel_element_04.png using Guid(bdb4914f78e2e16ec964e04376f0571b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e359c3dae095fe5a351915a6619b6379') in 0.010844 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/OtherAssets/RPG&Fantasy Mobile GUI/panel_elements/panel_element_19.png
+  artifactKey: Guid(6acd0b4976399de83a5581bff5ae7ebc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OtherAssets/RPG&Fantasy Mobile GUI/panel_elements/panel_element_19.png using Guid(6acd0b4976399de83a5581bff5ae7ebc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ae867b90b84270c902578671a105b41') in 0.009454 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/OtherAssets/RPG&Fantasy Mobile GUI/panel_elements/panel_element_35.png
+  artifactKey: Guid(7b54509c8cfeb8147bd280e2137fdb51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OtherAssets/RPG&Fantasy Mobile GUI/panel_elements/panel_element_35.png using Guid(7b54509c8cfeb8147bd280e2137fdb51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b1bb6451fa4fe291e951869ac5d7526') in 0.008322 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/OtherAssets/RPG&Fantasy Mobile GUI/panel_elements/panel_element_38.png
+  artifactKey: Guid(7b6373ce8afe1bcdd9725c0f2e84bd89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OtherAssets/RPG&Fantasy Mobile GUI/panel_elements/panel_element_38.png using Guid(7b6373ce8afe1bcdd9725c0f2e84bd89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '899a20eee3f885a6e1530e8d07ef6074') in 0.008141 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/OtherAssets/RPG&Fantasy Mobile GUI/panel_elements/star.png
+  artifactKey: Guid(ff5c89d47eaab58e794b453f0f79d8cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OtherAssets/RPG&Fantasy Mobile GUI/panel_elements/star.png using Guid(ff5c89d47eaab58e794b453f0f79d8cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cedc8ca6ea037726be38a9b1b59362bc') in 0.009875 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/OtherAssets/RPG&Fantasy Mobile GUI/panel_elements/panel_element_06.png
+  artifactKey: Guid(370b39e28ffe4fb308cb43cab34575b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OtherAssets/RPG&Fantasy Mobile GUI/panel_elements/panel_element_06.png using Guid(370b39e28ffe4fb308cb43cab34575b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ce849e4cc355d17a31ccb5b6dd8f28f') in 0.014622 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/OtherAssets/RPG&Fantasy Mobile GUI/panel_elements/panel_element_14.png
+  artifactKey: Guid(898e19396e60c2f85af726a653820718) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OtherAssets/RPG&Fantasy Mobile GUI/panel_elements/panel_element_14.png using Guid(898e19396e60c2f85af726a653820718) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '030bc8e750f5ff3114bc1f7615293afb') in 0.015077 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/OtherAssets/RPG&Fantasy Mobile GUI/panel_elements/panel_element_23.png
+  artifactKey: Guid(cbc7d9254a90809c4ac1cdc243745fa0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OtherAssets/RPG&Fantasy Mobile GUI/panel_elements/panel_element_23.png using Guid(cbc7d9254a90809c4ac1cdc243745fa0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c6b6b19f53be2edcff32910197e03cb') in 0.016005 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/OtherAssets/RPG&Fantasy Mobile GUI/panel_elements/panel_element_13.png
+  artifactKey: Guid(6e554685155db0245abe2f27f3b5029e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OtherAssets/RPG&Fantasy Mobile GUI/panel_elements/panel_element_13.png using Guid(6e554685155db0245abe2f27f3b5029e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '622123238fb89a360de7d9a275aaa7f5') in 0.008991 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/OtherAssets/RPG&Fantasy Mobile GUI/panel_elements/g9106.png
+  artifactKey: Guid(fd6e4dadafa75a39e9c3426c43143455) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OtherAssets/RPG&Fantasy Mobile GUI/panel_elements/g9106.png using Guid(fd6e4dadafa75a39e9c3426c43143455) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '59f4f948fa493d7a6621fc12de75ccc1') in 0.008527 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.461766 seconds.
+  path: Assets/OtherAssets/RPG&Fantasy Mobile GUI/icons/icon_02.png
+  artifactKey: Guid(29e9f03e5bc86ea5687c09675ef24d77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OtherAssets/RPG&Fantasy Mobile GUI/icons/icon_02.png using Guid(29e9f03e5bc86ea5687c09675ef24d77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '60e1c58c6c583576207f1a3452d78bd5') in 0.007806 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/OtherAssets/RPG&Fantasy Mobile GUI/icons/icon_25.png
+  artifactKey: Guid(66fd78659f261d20692b28a637838d39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OtherAssets/RPG&Fantasy Mobile GUI/icons/icon_25.png using Guid(66fd78659f261d20692b28a637838d39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3938bdfbed4fe00c45d82a3720e9264e') in 0.007025 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/OtherAssets/RPG&Fantasy Mobile GUI/icons/icon_20.png
+  artifactKey: Guid(3b7fa5657ba6f1c8ab1d88df958b80f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OtherAssets/RPG&Fantasy Mobile GUI/icons/icon_20.png using Guid(3b7fa5657ba6f1c8ab1d88df958b80f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '413b162ff144ad7b3445d017ad293c5d') in 0.006772 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/OtherAssets/RPG&Fantasy Mobile GUI/icons/icon_14.png
+  artifactKey: Guid(0e6653553eb7437bd8558485ca0ea763) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OtherAssets/RPG&Fantasy Mobile GUI/icons/icon_14.png using Guid(0e6653553eb7437bd8558485ca0ea763) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af7c1fee673a7ddc7751c9d06f8edadb') in 0.007340 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/OtherAssets/RPG&Fantasy Mobile GUI/icons/icon_15.png
+  artifactKey: Guid(5e28688c573197cda85d386c6323d172) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OtherAssets/RPG&Fantasy Mobile GUI/icons/icon_15.png using Guid(5e28688c573197cda85d386c6323d172) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '212e7bf7f39d30b39e4d0049b86598eb') in 0.006560 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/OtherAssets/RPG&Fantasy Mobile GUI/icons/icon_28.png
+  artifactKey: Guid(264b09da99220ec079deb4158724565c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OtherAssets/RPG&Fantasy Mobile GUI/icons/icon_28.png using Guid(264b09da99220ec079deb4158724565c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '559f86daa0640c278093a15b3da91b42') in 0.006656 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/OtherAssets/RPG&Fantasy Mobile GUI/icons/icon_13.png
+  artifactKey: Guid(1bae0e9415c7109e3a3be0a9a42becb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OtherAssets/RPG&Fantasy Mobile GUI/icons/icon_13.png using Guid(1bae0e9415c7109e3a3be0a9a42becb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '56aaadcca1874bbcd9de0066f30f71d4') in 0.006613 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/OtherAssets/RPG&Fantasy Mobile GUI/icons/icon_21.png
+  artifactKey: Guid(4613e6e8cc8b359fd91afe249631f680) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OtherAssets/RPG&Fantasy Mobile GUI/icons/icon_21.png using Guid(4613e6e8cc8b359fd91afe249631f680) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '66226eac87e48cbc19b0119a198aa1df') in 0.007695 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/OtherAssets/RPG&Fantasy Mobile GUI/icons/icon_24.png
+  artifactKey: Guid(629bd2fcaf56d2f3e9b13e0715ca1c4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OtherAssets/RPG&Fantasy Mobile GUI/icons/icon_24.png using Guid(629bd2fcaf56d2f3e9b13e0715ca1c4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cbdf2916793e1990507c61d3511aa31d') in 0.007071 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.279077 seconds.
+  path: Assets/OtherAssets/RPG&Fantasy Mobile GUI/ready_buttons/ready_button_02.png
+  artifactKey: Guid(68f9c129f52dd40e69b4ebbe3b76c4a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OtherAssets/RPG&Fantasy Mobile GUI/ready_buttons/ready_button_02.png using Guid(68f9c129f52dd40e69b4ebbe3b76c4a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f21866c0898f1b81d04b6572d48cb1e1') in 0.009962 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/OtherAssets/RPG&Fantasy Mobile GUI/ready_buttons/ready_button_07.png
+  artifactKey: Guid(9599e9e8f91ca770e9bbc4dc3a6e10fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OtherAssets/RPG&Fantasy Mobile GUI/ready_buttons/ready_button_07.png using Guid(9599e9e8f91ca770e9bbc4dc3a6e10fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd8ecc2d8db715db5e8b7878532cab37a') in 0.008909 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/OtherAssets/RPG&Fantasy Mobile GUI/ready_buttons/ready_button_pressed02.png
+  artifactKey: Guid(b74ff6ebc1e43669ca413554784d4aae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OtherAssets/RPG&Fantasy Mobile GUI/ready_buttons/ready_button_pressed02.png using Guid(b74ff6ebc1e43669ca413554784d4aae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd5b629cbd7a3e15287fd65614010d786') in 0.008736 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/OtherAssets/RPG&Fantasy Mobile GUI/ready_buttons/ready_button_09.png
+  artifactKey: Guid(6e9e166d18282c7e1aa9d98a8286e511) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OtherAssets/RPG&Fantasy Mobile GUI/ready_buttons/ready_button_09.png using Guid(6e9e166d18282c7e1aa9d98a8286e511) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c0b2a8dbbdaacdc234d76edf5011fd51') in 0.010504 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/OtherAssets/RPG&Fantasy Mobile GUI/ready_buttons/ready_button_08.png
+  artifactKey: Guid(b48ff25a843a8847c8472bcd785a65c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OtherAssets/RPG&Fantasy Mobile GUI/ready_buttons/ready_button_08.png using Guid(b48ff25a843a8847c8472bcd785a65c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83479b3d2d46d3079a96c28611379dfd') in 0.009165 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/OtherAssets/RPG&Fantasy Mobile GUI/ready_buttons/ready_button_pressed07.png
+  artifactKey: Guid(c3add76db8be3b0f5b8db8b3c0bbc4ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OtherAssets/RPG&Fantasy Mobile GUI/ready_buttons/ready_button_pressed07.png using Guid(c3add76db8be3b0f5b8db8b3c0bbc4ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33e9f1479d2d3c40bdb5afc839fe6419') in 0.009843 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 103.345083 seconds.
+  path: Assets/OtherAssets/RPG&Fantasy Mobile GUI/symbols/number_01.png
+  artifactKey: Guid(ac85a172a8d0a73d29e615e284ff0d3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OtherAssets/RPG&Fantasy Mobile GUI/symbols/number_01.png using Guid(ac85a172a8d0a73d29e615e284ff0d3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6beae7cb7abe0e76bce2a31f33263ba1') in 0.007053 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.003958 seconds.
+  path: Assets/OtherAssets/RPG&Fantasy Mobile GUI/symbols/number_06.png
+  artifactKey: Guid(eb7730b9653013a7683f8093cc1118c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OtherAssets/RPG&Fantasy Mobile GUI/symbols/number_06.png using Guid(eb7730b9653013a7683f8093cc1118c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '173b23cf43d51f3e015fe50172623a62') in 0.006761 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/OtherAssets/RPG&Fantasy Mobile GUI/symbols/symbol_01.png
+  artifactKey: Guid(40139d4cad125c883a16bfb95a3d86b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OtherAssets/RPG&Fantasy Mobile GUI/symbols/symbol_01.png using Guid(40139d4cad125c883a16bfb95a3d86b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8c695835ee8b13dca7dd2d93cb2c55f') in 0.006599 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/OtherAssets/RPG&Fantasy Mobile GUI/symbols/number_03.png
+  artifactKey: Guid(0dffd8b37ed50dd7b98e058a8f3412dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OtherAssets/RPG&Fantasy Mobile GUI/symbols/number_03.png using Guid(0dffd8b37ed50dd7b98e058a8f3412dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd753dac80a3ec9ac7305a37f6f61130') in 0.007522 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/OtherAssets/RPG&Fantasy Mobile GUI/symbols/symbol_06.png
+  artifactKey: Guid(67e78bbe4388fadcd933b8c4eab3adbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OtherAssets/RPG&Fantasy Mobile GUI/symbols/symbol_06.png using Guid(67e78bbe4388fadcd933b8c4eab3adbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c118dd7539530e6148970dd82252b4a') in 0.006343 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/OtherAssets/RPG&Fantasy Mobile GUI/symbols/number_05.png
+  artifactKey: Guid(b59f8053c345273739d1693f2f983b9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OtherAssets/RPG&Fantasy Mobile GUI/symbols/number_05.png using Guid(b59f8053c345273739d1693f2f983b9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f37711947052eea0ed3a3d4d15d40f75') in 0.006668 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/OtherAssets/RPG&Fantasy Mobile GUI/symbols/symbol_09.png
+  artifactKey: Guid(8f1253d3d510ae9f68c935d9a0642b4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OtherAssets/RPG&Fantasy Mobile GUI/symbols/symbol_09.png using Guid(8f1253d3d510ae9f68c935d9a0642b4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e67e01ec9c5dfb55b2bf9b39cbfeef29') in 0.005297 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/OtherAssets/RPG&Fantasy Mobile GUI/symbols/symbol_03.png
+  artifactKey: Guid(fced4683bdee91a50acbfcceea9d9076) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OtherAssets/RPG&Fantasy Mobile GUI/symbols/symbol_03.png using Guid(fced4683bdee91a50acbfcceea9d9076) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '448977af17f679a6215470138887bf57') in 0.010256 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/OtherAssets/RPG&Fantasy Mobile GUI/symbols/number_09.png
+  artifactKey: Guid(ecc16550a4742054882bd5b72455abb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OtherAssets/RPG&Fantasy Mobile GUI/symbols/number_09.png using Guid(ecc16550a4742054882bd5b72455abb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '99d73a9cb8f33ef50df680de5b5f8909') in 0.005913 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/OtherAssets/RPG&Fantasy Mobile GUI/symbols/number_08.png
+  artifactKey: Guid(64f324131674f2a3ebc600d3e3faec52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OtherAssets/RPG&Fantasy Mobile GUI/symbols/number_08.png using Guid(64f324131674f2a3ebc600d3e3faec52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '808222d49c7628da7f6c0918601d9445') in 0.005467 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.407106 seconds.
+  path: Assets/OtherAssets/RPG&Fantasy Mobile GUI/texts/level.png
+  artifactKey: Guid(00e1d5c77907bbed69e22c6f0ffa9d85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OtherAssets/RPG&Fantasy Mobile GUI/texts/level.png using Guid(00e1d5c77907bbed69e22c6f0ffa9d85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b5e6389d5bf67df85d31d4b2110cdef2') in 0.007274 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/OtherAssets/RPG&Fantasy Mobile GUI/texts/text_07.png
+  artifactKey: Guid(e747767525e79a371b08c604dec13b60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OtherAssets/RPG&Fantasy Mobile GUI/texts/text_07.png using Guid(e747767525e79a371b08c604dec13b60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b48c1fb248c47f3eb26bd1937f81888') in 0.007232 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/OtherAssets/RPG&Fantasy Mobile GUI/texts/sfx.png
+  artifactKey: Guid(5f8c8ff36b63b77ba80fc0f97c707451) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OtherAssets/RPG&Fantasy Mobile GUI/texts/sfx.png using Guid(5f8c8ff36b63b77ba80fc0f97c707451) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6239bd594694f28889c55d7b0ca309c') in 0.007101 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/OtherAssets/RPG&Fantasy Mobile GUI/texts/text_12.png
+  artifactKey: Guid(b7fc91121d826d355bd427e9d4d0a576) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OtherAssets/RPG&Fantasy Mobile GUI/texts/text_12.png using Guid(b7fc91121d826d355bd427e9d4d0a576) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b380c863bfadf52e1572776bc98e230') in 0.006884 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/OtherAssets/RPG&Fantasy Mobile GUI/texts/text_09.png
+  artifactKey: Guid(d9116b851a75a7dcd8eebe73a762d020) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OtherAssets/RPG&Fantasy Mobile GUI/texts/text_09.png using Guid(d9116b851a75a7dcd8eebe73a762d020) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e86d8196e5973ca54a94004ccf68e296') in 0.006276 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/OtherAssets/RPG&Fantasy Mobile GUI/texts/text_10.png
+  artifactKey: Guid(f55efdaeaf06705f19760fd936cb5a6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OtherAssets/RPG&Fantasy Mobile GUI/texts/text_10.png using Guid(f55efdaeaf06705f19760fd936cb5a6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c7f4acefaafd79e9c824d672f62fcc6a') in 0.007057 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/OtherAssets/RPG&Fantasy Mobile GUI/texts/text_05.png
+  artifactKey: Guid(00949afb617f7d41db8c248e0942be7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OtherAssets/RPG&Fantasy Mobile GUI/texts/text_05.png using Guid(00949afb617f7d41db8c248e0942be7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90b2d5f0ad5de57b305298c298570257') in 0.006847 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/OtherAssets/RPG&Fantasy Mobile GUI/texts/quit.png
+  artifactKey: Guid(6b7bf277c23e22969a1e99939c648706) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OtherAssets/RPG&Fantasy Mobile GUI/texts/quit.png using Guid(6b7bf277c23e22969a1e99939c648706) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '126780cf7a3d400bee90814f4d8738e2') in 0.011814 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/OtherAssets/RPG&Fantasy Mobile GUI/texts/score.png
+  artifactKey: Guid(bdac9f03e4289144c9f6123290d69a1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OtherAssets/RPG&Fantasy Mobile GUI/texts/score.png using Guid(bdac9f03e4289144c9f6123290d69a1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '357683b77658ada5206ced73b8ade12d') in 0.007774 seconds 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
